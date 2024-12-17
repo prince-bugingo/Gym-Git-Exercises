@@ -1,7 +1,7 @@
 #Exercise 1
 ## Create a project folder & initialize git
 
-yminshuti@Inshutis-iMac ~ % cd desktop
+``` yminshuti@Inshutis-iMac ~ % cd desktop
 gyminshuti@Inshutis-iMac desktop % ls
 Screenshot 2024-12-17 at 10.12.13.png   Screenshot 2024-12-17 at 10.53.13.png   TG
 Screenshot 2024-12-17 at 10.17.18.png   Screenshot 2024-12-17 at 11.01.13.png   trialProject
@@ -11,10 +11,11 @@ gyminshuti@Inshutis-iMac Bundle1 % touch Exercise1
 gyminshuti@Inshutis-iMac Bundle1 % git init 
 Initialized empty Git repository in /Users/gyminshuti/Desktop/Bundle1/.git/
 gyminshuti@Inshutis-iMac Bundle1 % 
-
+```
 
 ## Make changes to the project (add files and contents)
 
+```
 gyminshuti@Inshutis-iMac Bundle1 % git branch   
 gyminshuti@Inshutis-iMac Bundle1 % git add .
 gyminshuti@Inshutis-iMac Bundle1 % git commit -m "Added file 1 and wrote line in it" 
@@ -24,7 +25,7 @@ gyminshuti@Inshutis-iMac Bundle1 % git commit -m "Added file 1 and wrote line in
  create mode 100644 readme.md
 gyminshuti@Inshutis-iMac Bundle1 % git branch
 * main
-
+```
 
 ## Rename your main branch from `master` to `main` (If your branch name is already `main` then rename it to `master` and then back to `main`)
 
@@ -45,7 +46,7 @@ gyminshuti@Inshutis-iMac Bundle1 %
 
 ## Stage your changes and commit them
 
-/*
+``` 
 gyminshuti@Inshutis-iMac Bundle1 % git status
 On branch main
 Changes not staged for commit:
@@ -56,13 +57,12 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 gyminshuti@Inshutis-iMac Bundle1 % git add .
 gyminshuti@Inshutis-iMac Bundle1 % git commit -m "Added seconf name on a file that specify my name"
-
-*/
+ ```
 
 ## Create a Github repo and connect it with your project
 ## Push your changes to GitHub
 
-/* 
+```
 gyminshuti@Inshutis-iMac Bundle1 % git remote add origin https://github.com/prince-bugingo/Gym-Git-Exercises
 error: remote origin already exists.
 gyminshuti@Inshutis-iMac Bundle1 % git remote set-url origin https://github.com/prince-bugingo/Gym-Git-Exercises
@@ -77,7 +77,7 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 gyminshuti@Inshutis-iMac Bundle1 % 
 
-*/
+```
 
 
 
