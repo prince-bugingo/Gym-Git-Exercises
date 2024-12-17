@@ -81,6 +81,46 @@ gyminshuti@Inshutis-iMac Bundle1 %
 
 
 
-- Create a new branch `dev`
-- From `dev` create another branch `test`
-- Go back to the `dev` branch and delete the `test` branch
+## Create a new branch `dev`
+
+```
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+  dev
+* main
+
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git checkout dev
+Switched to branch 'dev'
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+* dev
+  main
+```
+
+
+## From `dev` create another branch `test`
+
+```
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch test
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git checkout test
+Switched to branch 'test'
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+  dev
+  main
+* test
+
+```
+
+
+## Go back to the `dev` branch and delete the `test` branch
+
+```
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+  delete
+* dev
+  main
+  test
+ 
+ 
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch --delete test
+Deleted branch test (was bccae8a).
+
+```
