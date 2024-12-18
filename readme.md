@@ -1,4 +1,4 @@
-#Exercise 1
+## Bundle 1: Exercise 1
 ### Create a project folder & initialize git
 ```
 yminshuti@Inshutis-iMac ~ % cd desktop
