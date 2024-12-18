@@ -1,3 +1,4 @@
+
 ## Bundle 1: Exercise 1
 ### Create a project folder & initialize git
 ```
@@ -10,6 +11,10 @@ gyminshuti@Inshutis-iMac desktop % cd Bundle1
 gyminshuti@Inshutis-iMac Bundle1 % touch Exercise1
 gyminshuti@Inshutis-iMac Bundle1 % git init 
 Initialized empty Git repository in /Users/gyminshuti/Desktop/Bundle1/.git/
+
+
+## Make changes to the project (add files and contents)
+
 gyminshuti@Inshutis-iMac Bundle1 % 
 ```
 
@@ -27,8 +32,8 @@ gyminshuti@Inshutis-iMac Bundle1 % git branch
 ```
 
 ### Rename your main branch from `master` to `main` (If your branch name is already `main` then rename it to `master` and then back to `main`)
-```
 
+```
 gyminshuti@Inshutis-iMac Bundle1 % git branch
 * main
 gyminshuti@Inshutis-iMac Bundle1 % git branch -m main master
@@ -44,7 +49,9 @@ gyminshuti@Inshutis-iMac Bundle1 %
 
 ### Stage your changes and commit them
 
+
 ```
+ 
 gyminshuti@Inshutis-iMac Bundle1 % git status
 On branch main
 Changes not staged for commit:
@@ -57,8 +64,9 @@ gyminshuti@Inshutis-iMac Bundle1 % git add .
 gyminshuti@Inshutis-iMac Bundle1 % git commit -m "Added seconf name on a file that specify my name"
 ```
 
+ 
 ### Push your changes to GitHub
-``` 
+ 
 gyminshuti@Inshutis-iMac Bundle1 % git remote add origin https://github.com/prince-bugingo/Gym-Git-Exercises
 error: remote origin already exists.
 gyminshuti@Inshutis-iMac Bundle1 % git remote set-url origin https://github.com/prince-bugingo/Gym-Git-Exercises
@@ -74,3 +82,50 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 gyminshuti@Inshutis-iMac Bundle1 % 
 
 ```
+
+
+## Create a new branch `dev`
+
+```
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+  dev
+* main
+
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git checkout dev
+Switched to branch 'dev'
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+* dev
+  main
+```
+
+
+## From `dev` create another branch `test`
+
+```
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch test
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git checkout test
+Switched to branch 'test'
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+  dev
+  main
+* test
+
+```
+
+
+## Go back to the `dev` branch and delete the `test` branch
+
+```
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch
+  delete
+* dev
+  main
+  test
+ 
+PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch --delete test
+Deleted branch test (was bccae8a).
+
+```
+ 
+ 
+
