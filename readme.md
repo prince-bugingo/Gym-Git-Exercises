@@ -1,7 +1,8 @@
-#Exercise 1
+# Exercise 1
 ## Create a project folder & initialize git
 
-``` yminshuti@Inshutis-iMac ~ % cd desktop
+``` 
+yminshuti@Inshutis-iMac ~ % cd desktop
 gyminshuti@Inshutis-iMac desktop % ls
 Screenshot 2024-12-17 at 10.12.13.png   Screenshot 2024-12-17 at 10.53.13.png   TG
 Screenshot 2024-12-17 at 10.17.18.png   Screenshot 2024-12-17 at 11.01.13.png   trialProject
@@ -10,7 +11,8 @@ gyminshuti@Inshutis-iMac desktop % cd Bundle1
 gyminshuti@Inshutis-iMac Bundle1 % touch Exercise1
 gyminshuti@Inshutis-iMac Bundle1 % git init 
 Initialized empty Git repository in /Users/gyminshuti/Desktop/Bundle1/.git/
-gyminshuti@Inshutis-iMac Bundle1 % 
+gyminshuti@Inshutis-iMac Bundle1 %
+
 ```
 
 ## Make changes to the project (add files and contents)
@@ -25,12 +27,12 @@ gyminshuti@Inshutis-iMac Bundle1 % git commit -m "Added file 1 and wrote line in
  create mode 100644 readme.md
 gyminshuti@Inshutis-iMac Bundle1 % git branch
 * main
+
 ```
 
 ## Rename your main branch from `master` to `main` (If your branch name is already `main` then rename it to `master` and then back to `main`)
 
 ```
-
 gyminshuti@Inshutis-iMac Bundle1 % git branch
 * main
 gyminshuti@Inshutis-iMac Bundle1 % git branch -m main master
@@ -57,7 +59,8 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 gyminshuti@Inshutis-iMac Bundle1 % git add .
 gyminshuti@Inshutis-iMac Bundle1 % git commit -m "Added seconf name on a file that specify my name"
- ```
+
+```
 
 ## Create a Github repo and connect it with your project
 ## Push your changes to GitHub
@@ -78,8 +81,6 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 gyminshuti@Inshutis-iMac Bundle1 % 
 
 ```
-
-
 
 ## Create a new branch `dev`
 
@@ -119,8 +120,9 @@ PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git bra
   main
   test
  
- 
 PS C:\Users\Prince BUGINGO\desktop\learn\TheGYM\3-Git\Gym-Git-Exercises> git branch --delete test
 Deleted branch test (was bccae8a).
 
 ```
+ 
+ 
